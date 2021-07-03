@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav{
+  background-image: url(./Asset/Img1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+}
+ .main-nav
+{
+  float: right;
+  display: inline-block; 
+  list-style: none;
+  margin-top: 10px;
+}
+.main-nav li 
+{
+  float: right;
+  margin-top: -20px;
+  
+
+}
+ .main-nav li a
+ {
+   color: red;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-family: "Roboto" sans-serif;
+   font-size: 20px;
+   
+  }
+    
+ .main-nav li.active a
+ {
+   border: 1px solid white;
+ }
+
+  .main-nav li a:hover
+  {
+    border: 1px solid white;
+  }
+
+  .logo img
+  {
+    width: 300px;
+    height: auto;
+  } 
+ 
+  body
+  {
+    font-family: monospace;
+  }
+  .row
+  {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .welcome
+  {
+    text-align: center;
+    color: red;
+    position: absolute;
+    width: 1200px;
+   
+  }
+
+   .h1
+   {
+     color: red;
+     font-size: 80px;
+     text-align: center;
+     margin-top: 50px;
+     float: left;
+   }
